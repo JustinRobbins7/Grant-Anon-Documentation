@@ -1,0 +1,48 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="MonoBehaviour",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node2 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="Building",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_building.html",tooltip=" "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="CentralBuilding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_central_building.html",tooltip=" "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="IncomeBuilding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_income_building.html",tooltip=" "];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="CircleDraw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_circle_draw.html",tooltip=" "];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="GameManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_game_manager.html",tooltip=" "];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="MainGameManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_game_manager.html",tooltip=" "];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="MiniGameManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_mini_game_manager.html",tooltip=" "];
+  Node2 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Grant",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_grant.html",tooltip=" "];
+  Node2 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="LevelManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_level_manager.html",tooltip=" "];
+  Node2 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="MainUIManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_u_i_manager.html",tooltip=" "];
+  Node2 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="MenuButton",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_menu_button.html",tooltip=" "];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ExitButton",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_exit_button.html",tooltip=" "];
+  Node13 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="InstructionButton",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_instruction_button.html",tooltip=" "];
+  Node13 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="StartButton",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_start_button.html",tooltip=" "];
+  Node2 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="MenuManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_menu_manager.html",tooltip=" "];
+  Node2 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="Player",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player.html",tooltip=" "];
+  Node2 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="PlayerController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player_controller.html",tooltip=" "];
+  Node2 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="PlayerControllerAssigner",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player_controller_assigner.html",tooltip=" "];
+  Node2 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="SaveNLoad",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_save_n_load.html",tooltip=" "];
+  Node2 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="SelectableUnitComponent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_selectable_unit_component.html",tooltip=" "];
+}
