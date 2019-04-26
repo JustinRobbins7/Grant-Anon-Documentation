@@ -22,9 +22,8 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Grant Anon
-   &#160;<span id="projectnumber">0.1</span>
    </div>
-   <div id="projectbrief">Capstone 2019 project for Breana Townsend, Justin Robbins, and Tristan Martin. Contains a multiplayer RTS game that contains party game elements.</div>
+   <div id="projectbrief">Capstone final Doxygen documentation</div>
   </td>
  </tr>
  </tbody>
@@ -65,6 +64,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="class_main_game_manager-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -74,13 +74,12 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for MainGameManager:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_main_game_manager__inherit__graph.png" border="0" usemap="#_main_game_manager_inherit__map" alt="Inheritance graph"/></div>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for MainGameManager:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_main_game_manager__coll__graph.png" border="0" usemap="#_main_game_manager_coll__map" alt="Collaboration graph"/></div>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+ <div class="center">
+  <img src="class_main_game_manager.png" usemap="#MainGameManager_map" alt=""/>
+  <map id="MainGameManager_map" name="MainGameManager_map">
+<area href="class_game_manager.html" alt="GameManager" shape="rect" coords="0,56,123,80"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -92,26 +91,44 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1b3b1b5c7daa559b2225e1c582621cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96859615561e0e8a2e0d042e3bff896e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_game_manager.html#a96859615561e0e8a2e0d042e3bff896e">InitPlayerArray</a> (int playerCount)</td></tr>
 <tr class="separator:a96859615561e0e8a2e0d042e3bff896e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79e16c44dc84e784e0cb90e04bbf71b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_game_manager.html#a79e16c44dc84e784e0cb90e04bbf71b3">InsertPlayer</a> (int playerIndex, <a class="el" href="class_player_controller.html">PlayerController</a> newPlayer)</td></tr>
-<tr class="separator:a79e16c44dc84e784e0cb90e04bbf71b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a918e16e48a463bde8fd16a5d14fea8f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_game_manager.html#a918e16e48a463bde8fd16a5d14fea8f5">InsertPlayer</a> (int playerIndex, <a class="el" href="class_player.html">Player</a> newPlayer)</td></tr>
+<tr class="separator:a918e16e48a463bde8fd16a5d14fea8f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba6dee779750e3b8f09ee87dcf629f93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_game_manager.html#aba6dee779750e3b8f09ee87dcf629f93">AddPlayerIncome</a> (int earningPlayer, int moneyEarned)</td></tr>
 <tr class="separator:aba6dee779750e3b8f09ee87dcf629f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6897933c0d0c3635893bcfdd40609ea1"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_game_manager.html#a6897933c0d0c3635893bcfdd40609ea1">StartLevelAfterLoad</a> (int startPlayerCount)</td></tr>
-<tr class="separator:a6897933c0d0c3635893bcfdd40609ea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a78b9c24362df17d8dd48c94e8344ad19"><td class="memItemLeft" align="right" valign="top"><a id="a78b9c24362df17d8dd48c94e8344ad19"></a>
+<a class="el" href="class_player.html">Player</a> []&#160;</td><td class="memItemRight" valign="bottom"><b>Players</b> = null</td></tr>
+<tr class="separator:a78b9c24362df17d8dd48c94e8344ad19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a846abf8bfd5120f601e89e5f0d3945c9"><td class="memItemLeft" align="right" valign="top"><a id="a846abf8bfd5120f601e89e5f0d3945c9"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>winningCondition</b> = 3</td></tr>
+<tr class="separator:a846abf8bfd5120f601e89e5f0d3945c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa164b013bbdc53ee7ce424e94d345d75"><td class="memItemLeft" align="right" valign="top"><a id="aa164b013bbdc53ee7ce424e94d345d75"></a>
+GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>Victory</b></td></tr>
+<tr class="separator:aa164b013bbdc53ee7ce424e94d345d75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0401bfa07bbdd5c2d31b679d33270499"><td class="memItemLeft" align="right" valign="top"><a id="a0401bfa07bbdd5c2d31b679d33270499"></a>
+Text&#160;</td><td class="memItemRight" valign="bottom"><b>Timer</b></td></tr>
+<tr class="separator:a0401bfa07bbdd5c2d31b679d33270499"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54a7d06a7ebc8489e8eee158b160e7b2"><td class="memItemLeft" align="right" valign="top"><a id="a54a7d06a7ebc8489e8eee158b160e7b2"></a>
+AudioSource&#160;</td><td class="memItemRight" valign="bottom"><b>grantAcquired</b></td></tr>
+<tr class="separator:a54a7d06a7ebc8489e8eee158b160e7b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30c0fc1397f56018c800e1a0923df16d"><td class="memItemLeft" align="right" valign="top"><a id="a30c0fc1397f56018c800e1a0923df16d"></a>
+AudioSource&#160;</td><td class="memItemRight" valign="bottom"><b>grantSpawn</b></td></tr>
+<tr class="separator:a30c0fc1397f56018c800e1a0923df16d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_class_game_manager"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_game_manager')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_game_manager.html">GameManager</a></td></tr>
+<tr class="memitem:ada48ec4b95c13341be646ea38b8a1927 inherit pub_attribs_class_game_manager"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#ada48ec4b95c13341be646ea38b8a1927">PlayerCount</a></td></tr>
+<tr class="separator:ada48ec4b95c13341be646ea38b8a1927 inherit pub_attribs_class_game_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a9429c6248d34aa502c474a650c80e3f3"><td class="memItemLeft" align="right" valign="top"><a id="a9429c6248d34aa502c474a650c80e3f3"></a>
 static <a class="el" href="class_main_game_manager.html">MainGameManager</a>&#160;</td><td class="memItemRight" valign="bottom"><b>instance</b> = null</td></tr>
 <tr class="separator:a9429c6248d34aa502c474a650c80e3f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_attribs_class_game_manager"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_game_manager')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_game_manager.html">GameManager</a></td></tr>
-<tr class="memitem:ada48ec4b95c13341be646ea38b8a1927 inherit pub_attribs_class_game_manager"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#ada48ec4b95c13341be646ea38b8a1927">PlayerCount</a></td></tr>
-<tr class="separator:ada48ec4b95c13341be646ea38b8a1927 inherit pub_attribs_class_game_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="class_main_game_manager.html">MainGameManager</a> for the project, handles players and the flow of the game, most notably the spawning of grants. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aba6dee779750e3b8f09ee87dcf629f93"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aba6dee779750e3b8f09ee87dcf629f93">&#9670;&nbsp;</a></span>AddPlayerIncome()</h2>
 
@@ -160,8 +177,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a79e16c44dc84e784e0cb90e04bbf71b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79e16c44dc84e784e0cb90e04bbf71b3">&#9670;&nbsp;</a></span>InsertPlayer()</h2>
+<a id="a918e16e48a463bde8fd16a5d14fea8f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a918e16e48a463bde8fd16a5d14fea8f5">&#9670;&nbsp;</a></span>InsertPlayer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -175,7 +192,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_player_controller.html">PlayerController</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_player.html">Player</a>&#160;</td>
           <td class="paramname"><em>newPlayer</em>&#160;</td>
         </tr>
         <tr>
@@ -222,7 +239,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Spawns a grant at a specificed position </p>
+<p>Spawns a grant at a specified position </p>
 
 </div>
 </div>
@@ -255,37 +272,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a6897933c0d0c3635893bcfdd40609ea1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6897933c0d0c3635893bcfdd40609ea1">&#9670;&nbsp;</a></span>StartLevelAfterLoad()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">override void MainGameManager.StartLevelAfterLoad </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>startPlayerCount</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Not yet implemented </p>
-
-<p>Implements <a class="el" href="class_game_manager.html">GameManager</a>.</p>
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Project Assets/Scripts/Managers/MainGameManager.cs</li>
+<li>D:/Program Files/UnityHub/Unity Projects/Grant Anon/Assets/Project Assets/Scripts/Managers/MainGameManager.cs</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

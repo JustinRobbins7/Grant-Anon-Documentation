@@ -1,7 +1,25 @@
 var searchData=
 [
-  ['savedlevel',['SavedLevel',['../class_saved_level.html',1,'']]],
-  ['savenload',['SaveNLoad',['../class_save_n_load.html',1,'']]],
-  ['selectableunitcomponent',['SelectableUnitComponent',['../class_selectable_unit_component.html',1,'']]],
-  ['startbutton',['StartButton',['../class_start_button.html',1,'']]]
+  ['iaddoperation',['IAddOperation',['../interface_unity_editor_1_1_package_manager_1_1_u_i_1_1_i_add_operation.html',1,'UnityEditor::PackageManager::UI']]],
+  ['ibaseoperation',['IBaseOperation',['../interface_unity_editor_1_1_package_manager_1_1_u_i_1_1_i_base_operation.html',1,'UnityEditor::PackageManager::UI']]],
+  ['ibuyable',['IBuyable',['../interface_i_buyable.html',1,'']]],
+  ['icollabhistoryitemfactory',['ICollabHistoryItemFactory',['../interface_unity_editor_1_1_collaboration_1_1_i_collab_history_item_factory.html',1,'UnityEditor::Collaboration']]],
+  ['idamageable',['IDamageable',['../interface_i_damageable.html',1,'']]],
+  ['iheapitem',['IHeapItem',['../interface_i_heap_item.html',1,'']]],
+  ['iheapitem_3c_20node_20_3e',['IHeapItem&lt; Node &gt;',['../interface_i_heap_item.html',1,'']]],
+  ['ilistoperation',['IListOperation',['../interface_unity_editor_1_1_package_manager_1_1_u_i_1_1_i_list_operation.html',1,'UnityEditor::PackageManager::UI']]],
+  ['imoveable',['IMoveable',['../interface_i_moveable.html',1,'']]],
+  ['incomebuilding',['IncomeBuilding',['../class_income_building.html',1,'']]],
+  ['indicatorbutton',['IndicatorButton',['../class_indicator_button.html',1,'']]],
+  ['instructionbutton',['InstructionButton',['../class_instruction_button.html',1,'']]],
+  ['instructmanager',['InstructManager',['../class_instruct_manager.html',1,'']]],
+  ['ioperationfactory',['IOperationFactory',['../interface_unity_editor_1_1_package_manager_1_1_u_i_1_1_i_operation_factory.html',1,'UnityEditor::PackageManager::UI']]],
+  ['ipackagemanagerextension',['IPackageManagerExtension',['../interface_unity_editor_1_1_package_manager_1_1_u_i_1_1_i_package_manager_extension.html',1,'UnityEditor::PackageManager::UI']]],
+  ['ipagerdata',['IPagerData',['../interface_unity_editor_1_1_collaboration_1_1_i_pager_data.html',1,'UnityEditor::Collaboration']]],
+  ['iremoveoperation',['IRemoveOperation',['../interface_unity_editor_1_1_package_manager_1_1_u_i_1_1_i_remove_operation.html',1,'UnityEditor::PackageManager::UI']]],
+  ['isearchoperation',['ISearchOperation',['../interface_unity_editor_1_1_package_manager_1_1_u_i_1_1_i_search_operation.html',1,'UnityEditor::PackageManager::UI']]],
+  ['iselectable',['ISelectable',['../interface_i_selectable.html',1,'']]],
+  ['ispawnable',['ISpawnable',['../interface_i_spawnable.html',1,'']]],
+  ['itextelement',['ITextElement',['../interface_t_m_pro_1_1_i_text_element.html',1,'TMPro']]],
+  ['itweenvalue',['ITweenValue',['../interface_t_m_pro_1_1_i_tween_value.html',1,'TMPro']]]
 ];

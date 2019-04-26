@@ -22,9 +22,8 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Grant Anon
-   &#160;<span id="projectnumber">0.1</span>
    </div>
-   <div id="projectbrief">Capstone 2019 project for Breana Townsend, Justin Robbins, and Tristan Martin. Contains a multiplayer RTS game that contains party game elements.</div>
+   <div id="projectbrief">Capstone final Doxygen documentation</div>
   </td>
  </tr>
  </tbody>
@@ -64,6 +63,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_building-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Building Class Reference</div>  </div>
@@ -72,15 +72,146 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for Building:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_building__inherit__graph.png" border="0" usemap="#_building_inherit__map" alt="Inheritance graph"/></div>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for Building:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_building__coll__graph.png" border="0" usemap="#_building_coll__map" alt="Collaboration graph"/></div>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+ <div class="center">
+  <img src="class_building.png" usemap="#Building_map" alt=""/>
+  <map id="Building_map" name="Building_map">
+<area href="interface_i_damageable.html" alt="IDamageable" shape="rect" coords="112,0,214,24"/>
+<area href="interface_i_buyable.html" alt="IBuyable" shape="rect" coords="224,0,326,24"/>
+<area href="interface_i_spawnable.html" alt="ISpawnable" shape="rect" coords="336,0,438,24"/>
+<area href="class_central_building.html" alt="CentralBuilding" shape="rect" coords="112,112,214,136"/>
+<area href="class_income_building.html" alt="IncomeBuilding" shape="rect" coords="224,112,326,136"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a1c5125ccb10b29220543ebcb9f55d262"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_building.html#a1c5125ccb10b29220543ebcb9f55d262">OnDamageTaken</a> (float damageTaken)</td></tr>
+<tr class="separator:a1c5125ccb10b29220543ebcb9f55d262"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a995271f649c0f7ed79ba9278209abbaf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_building.html#a995271f649c0f7ed79ba9278209abbaf">GetCost</a> ()</td></tr>
+<tr class="separator:a995271f649c0f7ed79ba9278209abbaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7768a71cf05f9a49acb00b74319272b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_building.html#a7768a71cf05f9a49acb00b74319272b8">SetOwningPlayerNum</a> (int owningPlayerNum)</td></tr>
+<tr class="separator:a7768a71cf05f9a49acb00b74319272b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ca23aa4c22afd3afb446cd13689e94e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_building.html#a1ca23aa4c22afd3afb446cd13689e94e">GetOwningPlayerNum</a> ()</td></tr>
+<tr class="separator:a1ca23aa4c22afd3afb446cd13689e94e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2095a2b0be61fc89af07e2950b4a2645"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_building.html#a2095a2b0be61fc89af07e2950b4a2645">OnDeath</a> ()</td></tr>
+<tr class="separator:a2095a2b0be61fc89af07e2950b4a2645"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="class_building.html">Building</a> parent class, implements <a class="el" href="interface_i_damageable.html">IDamageable</a>, <a class="el" href="interface_i_buyable.html">IBuyable</a>, and <a class="el" href="interface_i_spawnable.html">ISpawnable</a> </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a995271f649c0f7ed79ba9278209abbaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a995271f649c0f7ed79ba9278209abbaf">&#9670;&nbsp;</a></span>GetCost()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Building.GetCost </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Implemented GetCost method from <a class="el" href="interface_i_buyable.html">IBuyable</a> </p>
+
+<p>Implements <a class="el" href="interface_i_buyable.html#a666481522dd474ce9e3855a58977e907">IBuyable</a>.</p>
+
+</div>
+</div>
+<a id="a1ca23aa4c22afd3afb446cd13689e94e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ca23aa4c22afd3afb446cd13689e94e">&#9670;&nbsp;</a></span>GetOwningPlayerNum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Building.GetOwningPlayerNum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Implemented <a class="el" href="interface_i_spawnable.html">ISpawnable</a> method GetOwningPlayerNum </p>
+
+<p>Implements <a class="el" href="interface_i_spawnable.html#a003559aeb35f081a9847468b3a1e7652">ISpawnable</a>.</p>
+
+</div>
+</div>
+<a id="a1c5125ccb10b29220543ebcb9f55d262"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c5125ccb10b29220543ebcb9f55d262">&#9670;&nbsp;</a></span>OnDamageTaken()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Building.OnDamageTaken </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>damageTaken</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Implemented OnDamageTaken method from <a class="el" href="interface_i_damageable.html">IDamageable</a> </p>
+
+<p>Implements <a class="el" href="interface_i_damageable.html#a579d2877a412134903a1a34df78b37b2">IDamageable</a>.</p>
+
+</div>
+</div>
+<a id="a2095a2b0be61fc89af07e2950b4a2645"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2095a2b0be61fc89af07e2950b4a2645">&#9670;&nbsp;</a></span>OnDeath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Building.OnDeath </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Overridable method OnDeath, used when the building's health drops to zero.</p>
+<p>By default it destroys the gameobject when health equals zero. </p>
+
+<p>Reimplemented in <a class="el" href="class_income_building.html#a57e2dda1fa25e02a1cc893399f6af245">IncomeBuilding</a>.</p>
+
+</div>
+</div>
+<a id="a7768a71cf05f9a49acb00b74319272b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7768a71cf05f9a49acb00b74319272b8">&#9670;&nbsp;</a></span>SetOwningPlayerNum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Building.SetOwningPlayerNum </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>owningPlayerNum</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Implemented <a class="el" href="interface_i_spawnable.html">ISpawnable</a> method SetOwningPlayerNum </p>
+
+<p>Implements <a class="el" href="interface_i_spawnable.html#a93ee3e83d73339df1773b982d9d38b75">ISpawnable</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Project Assets/Scripts/Buildings/Building.cs</li>
+<li>D:/Program Files/UnityHub/Unity Projects/Grant Anon/Assets/Project Assets/Scripts/Buildings/Building.cs</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['maxplayers',['MaxPlayers',['../class_player_controller_assigner.html#a6e41ad307f3cc30e7c89a43a56776b00',1,'PlayerControllerAssigner']]],
-  ['menugameobjs',['menuGameObjs',['../class_menu_manager.html#a8277e1b5241425a2af8372561d49796b',1,'MenuManager']]]
+  ['fallbackfontassets',['fallbackFontAssets',['../class_t_m_pro_1_1_t_m_p___font_asset.html#acb4defd1335d404d2e984bd130c59fe1',1,'TMPro::TMP_FontAsset']]],
+  ['fallbackspriteassets',['fallbackSpriteAssets',['../class_t_m_pro_1_1_t_m_p___sprite_asset.html#a417cdcac52c66835dcdb3ef8fdf15b3c',1,'TMPro::TMP_SpriteAsset']]]
 ];

@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['facecolor',['faceColor',['../class_t_m_pro_1_1_t_m_p___text.html#a636390b562bc0a1f6794db74660e2291',1,'TMPro::TMP_Text']]],
+  ['fallbackfontassets',['fallbackFontAssets',['../class_t_m_pro_1_1_t_m_p___settings.html#a2239a7f8504614b295bcee82ccffeaa5',1,'TMPro::TMP_Settings']]],
+  ['fallbackmaterial',['fallbackMaterial',['../class_t_m_pro_1_1_t_m_p___sub_mesh.html#ab77df446a9272aeb7b29e189ed42d408',1,'TMPro.TMP_SubMesh.fallbackMaterial()'],['../class_t_m_pro_1_1_t_m_p___sub_mesh_u_i.html#a752da89e0deb52b9e005365ebc315fa1',1,'TMPro.TMP_SubMeshUI.fallbackMaterial()']]],
+  ['fallbacksourcematerial',['fallbackSourceMaterial',['../class_t_m_pro_1_1_t_m_p___sub_mesh.html#a323c171d10bb001f23b750d9404b68a8',1,'TMPro.TMP_SubMesh.fallbackSourceMaterial()'],['../class_t_m_pro_1_1_t_m_p___sub_mesh_u_i.html#a9b771a5f56a567373c07d24fae47011c',1,'TMPro.TMP_SubMeshUI.fallbackSourceMaterial()']]],
+  ['fcost',['fCost',['../class_node.html#a1a9a8c516c3fb19ff94469ff49a486a2',1,'Node']]],
+  ['firstglyph',['firstGlyph',['../class_t_m_pro_1_1_kerning_pair.html#af9aa2a18d3992d1fa6080e44c69fe7c5',1,'TMPro::KerningPair']]],
+  ['firstglyphadjustments',['firstGlyphAdjustments',['../class_t_m_pro_1_1_kerning_pair.html#a5eed997a7f25917e7de7804a6cf052f4',1,'TMPro::KerningPair']]],
+  ['firstoverflowcharacterindex',['firstOverflowCharacterIndex',['../class_t_m_pro_1_1_t_m_p___text.html#a41e1120f3d5667fbe6ad537937a579fa',1,'TMPro::TMP_Text']]],
+  ['firstvisiblecharacter',['firstVisibleCharacter',['../class_t_m_pro_1_1_t_m_p___text.html#aae7cd2f640ffd5936f7e8a09d95a221d',1,'TMPro::TMP_Text']]],
+  ['flexibleheight',['flexibleHeight',['../class_t_m_pro_1_1_t_m_p___text.html#a19b8af303698cfa8117dcac2381bca90',1,'TMPro::TMP_Text']]],
+  ['flexiblewidth',['flexibleWidth',['../class_t_m_pro_1_1_t_m_p___text.html#a8be9f32bae4a94101351d359c926ed82',1,'TMPro::TMP_Text']]],
+  ['followingcharacters',['followingCharacters',['../class_t_m_pro_1_1_t_m_p___settings.html#a05637d0bf743beb9317c129c960bc654',1,'TMPro::TMP_Settings']]],
+  ['font',['font',['../class_t_m_pro_1_1_t_m_p___text.html#a0a55f0d5dc209d8b265113c2669fd980',1,'TMPro::TMP_Text']]],
+  ['fontasset',['fontAsset',['../class_t_m_pro_1_1_t_m_p___input_field.html#ac13a97bd7e0eb0e19b5a50efc11adb67',1,'TMPro.TMP_InputField.fontAsset()'],['../class_t_m_pro_1_1_t_m_p___sub_mesh.html#a964077af399140595270238950a3b931',1,'TMPro.TMP_SubMesh.fontAsset()'],['../class_t_m_pro_1_1_t_m_p___sub_mesh_u_i.html#ac26089f074be39cd7f88b0b2b36c9e6b',1,'TMPro.TMP_SubMeshUI.fontAsset()']]],
+  ['fontinfo',['fontInfo',['../class_t_m_pro_1_1_t_m_p___font_asset.html#a6afd05863cb5c5f39221cc63904b3f90',1,'TMPro::TMP_FontAsset']]],
+  ['fontmaterial',['fontMaterial',['../class_t_m_pro_1_1_t_m_p___text.html#a43469e73ada24bcd98556df734ed3062',1,'TMPro::TMP_Text']]],
+  ['fontmaterials',['fontMaterials',['../class_t_m_pro_1_1_t_m_p___text.html#a9fdf319f4f5ef63d80c9a575472d800f',1,'TMPro::TMP_Text']]],
+  ['fontscale',['fontScale',['../class_t_m_pro_1_1_t_m_p___text.html#abf3c8050ad39a6a25615082085d4d05b',1,'TMPro::TMP_Text']]],
+  ['fontsharedmaterial',['fontSharedMaterial',['../class_t_m_pro_1_1_t_m_p___text.html#ae8499604279c5c7af4ce94b3ba839a32',1,'TMPro::TMP_Text']]],
+  ['fontsharedmaterials',['fontSharedMaterials',['../class_t_m_pro_1_1_t_m_p___text.html#ad5f432b62b573b9d9156443562c7d840',1,'TMPro::TMP_Text']]],
+  ['fontsize',['fontSize',['../class_t_m_pro_1_1_t_m_p___text.html#a87683b2b2c721200b2822d16c0ce3dee',1,'TMPro::TMP_Text']]],
+  ['fontsizemax',['fontSizeMax',['../class_t_m_pro_1_1_t_m_p___text.html#ab277a475e80198b4c17e808465d455af',1,'TMPro::TMP_Text']]],
+  ['fontsizemin',['fontSizeMin',['../class_t_m_pro_1_1_t_m_p___text.html#ab6642b203f0de62e49407ce5caada06d',1,'TMPro::TMP_Text']]],
+  ['fontstyle',['fontStyle',['../class_t_m_pro_1_1_t_m_p___text.html#af2e472645f4e0ab2f33ab3236def7dc4',1,'TMPro::TMP_Text']]],
+  ['fontweight',['fontWeight',['../class_t_m_pro_1_1_t_m_p___text.html#a571c8cac097b25de7c9cea8da1c27d47',1,'TMPro::TMP_Text']]]
+];

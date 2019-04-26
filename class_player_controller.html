@@ -22,9 +22,8 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Grant Anon
-   &#160;<span id="projectnumber">0.1</span>
    </div>
-   <div id="projectbrief">Capstone 2019 project for Breana Townsend, Justin Robbins, and Tristan Martin. Contains a multiplayer RTS game that contains party game elements.</div>
+   <div id="projectbrief">Capstone final Doxygen documentation</div>
   </td>
  </tr>
  </tbody>
@@ -66,7 +65,6 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#properties">Properties</a> &#124;
 <a href="class_player_controller-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">PlayerController Class Reference</div>  </div>
@@ -75,13 +73,9 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for PlayerController:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_player_controller__inherit__graph.png" border="0" usemap="#_player_controller_inherit__map" alt="Inheritance graph"/></div>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for PlayerController:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_player_controller__coll__graph.png" border="0" usemap="#_player_controller_coll__map" alt="Collaboration graph"/></div>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+ <div class="center">
+  <img src="class_player_controller.png" alt=""/>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -92,21 +86,15 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:adfefe80c2cf8888f5240ec65f1445400"><td class="memItemLeft" align="right" valign="top"><a id="adfefe80c2cf8888f5240ec65f1445400"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>BuildingRoot</b> = null</td></tr>
-<tr class="separator:adfefe80c2cf8888f5240ec65f1445400"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d1e0a67e9692abd74cebfd9df2a2274"><td class="memItemLeft" align="right" valign="top"><a id="a6d1e0a67e9692abd74cebfd9df2a2274"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>UnitRoot</b> = null</td></tr>
-<tr class="separator:a6d1e0a67e9692abd74cebfd9df2a2274"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac98839f563281cc3a6a1bf64ee3b67d3"><td class="memItemLeft" align="right" valign="top"><a id="ac98839f563281cc3a6a1bf64ee3b67d3"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>money</b></td></tr>
-<tr class="separator:ac98839f563281cc3a6a1bf64ee3b67d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
-Properties</h2></td></tr>
-<tr class="memitem:ace2bb6587a3d2e5a64e737a89040141e"><td class="memItemLeft" align="right" valign="top"><a id="ace2bb6587a3d2e5a64e737a89040141e"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>radius</b><code> [get, set]</code></td></tr>
-<tr class="separator:ace2bb6587a3d2e5a64e737a89040141e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bd0f372b04e8bf9356fefddfa7c983d"><td class="memItemLeft" align="right" valign="top"><a id="a4bd0f372b04e8bf9356fefddfa7c983d"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>controllerNum</b></td></tr>
+<tr class="separator:a4bd0f372b04e8bf9356fefddfa7c983d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8c7ef9026f8317635e8aeda64374678"><td class="memItemLeft" align="right" valign="top"><a id="af8c7ef9026f8317635e8aeda64374678"></a>
+Vector2&#160;</td><td class="memItemRight" valign="bottom"><b>bottomLeftLimit</b></td></tr>
+<tr class="separator:af8c7ef9026f8317635e8aeda64374678"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab86691acaa3c5b6445d771ff7dbddeb8"><td class="memItemLeft" align="right" valign="top"><a id="ab86691acaa3c5b6445d771ff7dbddeb8"></a>
+Vector2&#160;</td><td class="memItemRight" valign="bottom"><b>topRightLimit</b></td></tr>
+<tr class="separator:ab86691acaa3c5b6445d771ff7dbddeb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="aadcabc7fc308d5e69c610154fb20883f"></a>
@@ -153,12 +141,12 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>radius</b><code> [ge
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Sets which axes this controller reads from. </p>
+<p>Sets the names of the axes this controller is listening for based on the given player number as well as setting this player controller's player number to the given number. </p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Project Assets/Scripts/Player/PlayerController.cs</li>
+<li>D:/Program Files/UnityHub/Unity Projects/Grant Anon/Assets/Project Assets/Scripts/Player/PlayerController.cs</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
